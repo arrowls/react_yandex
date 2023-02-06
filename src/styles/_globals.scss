@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+._g-inner-padding {
+  padding: 30px;
+}
+
+._g-outer-width {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+._g-button {
+  background-color: transparent;
+  border: none;
+}
+
+._g-container {
+  position: relative;
+  padding-left: 200px;
+}
+
+._g-logo {
+  position: absolute;
+  font-size: 3rem;
+  transform: translateX(calc(-100% - 20px)) translateY(-10px);
+  font-weight: bold;
+
+  &:first-letter {
+    color: red;
+  }
+}

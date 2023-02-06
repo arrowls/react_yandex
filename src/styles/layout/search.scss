@@ -1,0 +1,14 @@
+$b: '.l-search';
+
+#{$b} {
+  margin-block: 20px;
+  font-size: 0.75rem;
+
+  &__input {
+    width: 100%;
+    background-color: white;
+    border: 2px solid rgb(255, 216, 93);
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+}
